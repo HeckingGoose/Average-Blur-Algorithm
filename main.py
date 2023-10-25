@@ -76,7 +76,7 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             fileName = fileName.split('.')
-            pygame.image.save(image, "Blurred\\" + fileName[0] + " - Blurred, radius " + str(radius) + "." + fileType)
+            pygame.image.save(image, "Blurred/" + fileName[0] + " - Blurred, radius " + str(radius) + "." + fileType)
             pygame.quit()
             sys.exit()
     display.blit(image, (0, 0))
