@@ -6,5 +6,5 @@ A Python-based blur algorithm that blurs an image by creating an average of ever
 This algorithm is super slow, partly because it is built with Python, and partly because it's calculating a circle of pixels for every pixel in the image (which takes a while).
 
 ### To do:
-- [ ] Fix bug where edges of image develop black-ish image
-- [ ] Speed up blur algorithm
+- [ ] Fix bug where edges of image develop black-ish colour after blur,
+- [ ] Speed up blur algorithm.
