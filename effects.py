@@ -12,11 +12,11 @@ def Blur(image, radius):
             area = 0
             for column in pixels:
                 for row in column:
-                    area += 1
                     if row[2] == 'y':
                         fR += image.get_at((row[0], row[1])).r
                         fG += image.get_at((row[0], row[1])).g
                         fB += image.get_at((row[0], row[1])).b
+                        area += 1
             fR = fR / area
             fG = fG / area
             fB = fB / area
